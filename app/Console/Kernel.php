@@ -13,7 +13,8 @@ class Kernel extends ConsoleKernel
      * @var array
      */
     protected $commands = [
-        //
+        //加上新建任务的类名
+        \App\Console\Commands\ImportImg::class,
     ];
 
     /**
