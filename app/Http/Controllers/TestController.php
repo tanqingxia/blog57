@@ -97,7 +97,6 @@ class TestController extends Controller
         dd($dirName);
         //读取目录
         $file = $this->fileList($dirName);
-        echo 'aaaaaa';
         dd($file);
     }
 
