@@ -7,6 +7,7 @@ use App\Http\Requests\TagUpdateRequest;
 use App\Models\Tag;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Log;
 
 class TagController extends Controller
 {

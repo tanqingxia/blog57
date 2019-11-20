@@ -10,6 +10,9 @@
         <li @if (Request::is('admin/upload*')) class="nav-item active" @else class="nav-item" @endif>
             <a class="nav-link" href="/admin/upload">上传</a>
         </li>
+        <li @if (Request::is('admin/interface*')) class="nav-item active" @else class="nav-item" @endif>
+            <a class="nav-link" href="/admin/interface">接口</a>
+        </li>
     @endauth
 </ul>
 

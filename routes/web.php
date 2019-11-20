@@ -16,6 +16,8 @@ Route::get('/', function () {
 
 Route::get('/blog', 'BlogController@index')->name('blog.home');
 Route::get('/blog/{slug}', 'BlogController@showPost')->name('blog.detail');
+Route::get('/test', 'TestController@test');
+Route::get('/init', 'TestController@init');
 
 // 后台路由
 Route::get('/admin', function () {
