@@ -93,7 +93,7 @@ class TestController extends Controller
      * 循环接口
      */
     public function init() {
-        $dirName = 'D:/phpxm/dachagui_backend/code/caiwu/src/Controller';
+        $dirName = '';
         dd($dirName);
         //读取目录
         $file = $this->fileList($dirName);
